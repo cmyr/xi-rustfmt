@@ -1,0 +1,27 @@
+[package]
+name = "xi-rustfmt"
+version = "0.0.0"
+license = "Apache-2.0"
+authors = ["Colin Rofls <colin@cmyr.net>"]
+repository = "https://github.com/google/xi-editor"
+description = "A rustfmt plugin for xi"
+
+[dependencies]
+serde = "1.0"
+serde_derive = "1.0"
+
+[dependencies.xi-plugin-lib]
+git = "https://github.com/xi-editor/xi-editor"
+branch = "master"
+
+[dependencies.xi-core-lib]
+git = "https://github.com/xi-editor/xi-editor"
+branch = "master"
+
+[dependencies.xi-rope]
+git = "https://github.com/xi-editor/xi-editor"
+branch = "master"
+
+[dependencies.xi-trace]
+git = "https://github.com/xi-editor/xi-editor"
+branch = "master"
